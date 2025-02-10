@@ -1,0 +1,71 @@
+.hero-section {
+    background-image: url(../Image/abstract-digital-grid-black-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+header {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1000; 
+}
+
+header .container {
+    margin: 0;
+    padding: 0 20px;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+}
+
+
+.title-f1{
+    font-family: "Sacramento", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6rem;
+    margin-top: 20px;
+}
+.title-f2{
+    font-family: cursive;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+.hero-f1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.face{
+    height: 7rem;
+    width: 7rem;
+}
+.list-ele{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.1rem;
+}
+.card-project{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    gap: 10px;
+}
+.card-title{
+    font-weight: 900;
+}
