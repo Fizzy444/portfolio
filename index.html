@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="dark">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,45 +17,46 @@
 </head>
 
 <body>
-<!--HEADER-->
-<section class="hero-section">
-<div class="container">
-  <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
-    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-      <img src="./Image/user.png" height="35"/>
-      <span class="fs-4 ms-2">  MITHUN A</span>
-    </a>
-    <ul class="nav nav-pills">
-      <li class="nav-item"><a href="#" class="nav-link" aria-current="page">Home</a></li>
-      <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-      <li class="nav-item"><a href="#" class="nav-link">Resume</a></li>
-      <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-    </ul>
-  </header>
-</div>
-
- <!--TITLE-->
-
-  <div class="container">
-   <div class="px-4 py-5 my-5 text-center">
-    <h1 class="display-5 fw-bold text-body-emphasis title-f1">I'm Mithun A</h1>
-    <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4 title-f2" >a developing programmer</p>
+  <!--HEADER-->
+  <section class="hero-section" id="home">
+    <div class="container">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <img src="./Image/user.png" height="35"/>
+          <span class="fs-4 ms-2">MITHUN A</span>
+        </a>
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#home" class="nav-link" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#resume" class="nav-link">Resume</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </header>
     </div>
-  </div>    
- </div>
-</section>
 
-<!--HERO-->
-<div class="px-4 py-5 my-5 text-center">
+    <!--TITLE-->
+    <div class="container">
+      <div class="px-4 py-5 my-5 text-center">
+        <h1 class="display-5 fw-bold text-body-emphasis title-f1">I'm Mithun A</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4 title-f2">a developing programmer</p>
+        </div>
+      </div>    
+    </div>
+  </section>
+
+  <!--ABOUT-->
+  <div class="px-4 py-5 my-5 text-center" id="about">
     <img class="d-block mx-auto mb-4" src="./Image/user.png" alt="Profile picture" width="72" height="57">
     <h1 class="display-5 fw-bold text-body-emphasis hero-f1">Welcome to My Personal Website!</h1>
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4 hero-f2">Hi, I'm Mithun, an aspiring AI and Data Science student passionate about technology, innovation, and problem-solving. Explore my projects, skills, and experiences to learn more about my journey in AI and beyond.</p>
     </div>
-</div>
- <!--CARDS RESUME-->
- <div class="container px-4 py-5" id="hanging-icons">
+  </div>
+
+  <!--RESUME-->
+  <div class="container px-4 py-5" id="resume">
     <h2 class="pb-2 border-bottom" style="text-align: center;">Resume</h2>
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 d-flex justify-content-center">
       <div class="col d-flex align-items-start">
@@ -71,7 +71,7 @@
             <li>Expected Graduation: 2029</li>
             <li><strong>Relevant Coursework:</strong> Introduction to AI, Data Science Fundamentals, Python Programming, Calculus</li>
             <li><strong>Certifications:</strong> Introduction to Python (Coursera), Data Science Essentials (edX)</li>
-        </ul>
+          </ul>
         </div>
       </div>
       <div class="col d-flex align-items-start">
@@ -85,71 +85,68 @@
             <li><strong>Tools & Frameworks:</strong>NumPy, Git, GitHub</li>
             <li><strong>Web Development:</strong> HTML, CSS, Bootstrap</li>
             <li><strong>Soft Skills:</strong> Problem-solving, Critical thinking, Time management, Communication</li>
-        </ul>
+          </ul>
         </div>
       </div>
     </div>
   </div>
-  
 
+  <!--PROJECTS-->
+  <h2 class="pb-2 border-bottom" style="text-align: center; margin-left: 120px; margin-right: 120px;" id="projects">Projects</h2>
 
- <!--CARDS PROJECT-->
- <h2 class="pb-2 border-bottom" style="text-align: center; margin-left: 120px; margin-right: 120px;">Projects</h2>
+  <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 justify-content-center">
+    <div class="col-md-4 d-flex justify-content-center">
+      <div class="card" style="max-width: 20rem;">
+        <img class="card-img-top" src="./Image/Moveit.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Move It</h5>
+          <p class="card-text">Your trusted partner for a smooth and hassle-free home relocation! 🚛🏡 Whether you're moving across town or to a new city, MoveIt takes care of everything—from packing and loading to transportation and unpacking. With reliable service and expert handling, we make your family's move stress-free and seamless!</p>
+          <a href="https://fizzy444.github.io/move-it/" class="btn btn-primary">Move It</a>
+        </div>
+      </div>
+    </div>
 
- <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 justify-content-center">
-  <div class="col-md-4 d-flex justify-content-center">
-    <div class="card" style="max-width: 20rem;">
-      <img class="card-img-top" src="./Image/Moveit.png" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Move It</h5>
-        <p class="card-text">Your trusted partner for a smooth and hassle-free home relocation! 🚛🏡 Whether you're moving across town or to a new city, MoveIt takes care of everything—from packing and loading to transportation and unpacking. With reliable service and expert handling, we make your family’s move stress-free and seamless!</p>
-        <a href="https://fizzy444.github.io/move-it/" class="btn btn-primary">Move It</a>
+    <div class="col-md-4 d-flex justify-content-center">
+      <div class="card" style="max-width: 20rem;">
+        <img class="card-img-top" src="./Image/Tindog.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">TinDog</h5>
+          <p class="card-text">A fun and innovative matchmaking app for dogs!. Inspired by Tinder, this app helps dog owners connect their furry friends with potential playmates or companions. Whether it's for friendship, fun, or even a little romance, TinDog makes it easy to find the perfect match based on location, breed, and personality. 🐶❤️</p>
+          <a href="https://fizzy444.github.io/tindog/" class="btn btn-primary">TinDog</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 d-flex justify-content-center">
+      <div class="card" style="max-width: 20rem;">
+        <img class="card-img-top" src="./Image/Drum-kit.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Drum Kit Simulator</h5>
+          <p class="card-text">Drum Kit Simulator 🎵🥁 This interactive website lets you play drum sounds using your keyboard, with each key mapped to a different drum element like a snare, bass, or cymbal. Designed for music enthusiasts, it provides a fun and responsive drumming experience right in your browser, making it easy to create beats anytime!</p>
+          <a href="https://fizzy444.github.io/Drum-Kit/" class="btn btn-primary">Drum-KIt</a>
+        </div>
       </div>
     </div>
   </div>
 
-  <div class="col-md-4 d-flex justify-content-center">
-    <div class="card" style="max-width: 20rem;">
-      <img class="card-img-top" src="./Image/Tindog.png" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">TinDog</h5>
-        <p class="card-text">A fun and innovative matchmaking app for dogs!. Inspired by Tinder, this app helps dog owners connect their furry friends with potential playmates or companions. Whether it's for friendship, fun, or even a little romance, TinDog makes it easy to find the perfect match based on location, breed, and personality. 🐶❤️</p>
-        <a href="https://fizzy444.github.io/tindog/" class="btn btn-primary">TinDog</a>
+  <!--CONTACT-->
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" id="contact">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">© 2025 Mithun A, Inc</span>
       </div>
-    </div>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-body-secondary" href="https://x.com/_Mithun2005"><img src="./icon_svg/x.svg"/></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/mithun-a-515335217/"><img src="./icon_svg/linkedin.svg"/></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/_mithun_a/"><img src="./icon_svg/insta.svg"/></a></li>
+      </ul>
+    </footer>
   </div>
-   <div class="col-md-4 d-flex justify-content-center">
-    <div class="card" style="max-width: 20rem;">
-      <img class="card-img-top" src="./Image/Drum-kit.png" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Drum Kit Simulator</h5>
-        <p class="card-text">Drum Kit Simulator 🎵🥁
 
-          This interactive website lets you play drum sounds using your keyboard, with each key mapped to a different drum element like a snare, bass, or cymbal. Designed for music enthusiasts, it provides a fun and responsive drumming experience right in your browser, making it easy to create beats anytime!</p>
-        <a href="https://fizzy444.github.io/Drum-Kit/" class="btn btn-primary">Drum-KIt</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!--FOOTER-->
-<div class="container">
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <div class="col-md-4 d-flex align-items-center">
-      <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-      </a>
-      <span class="mb-3 mb-md-0 text-body-secondary">© 2025 Mithun A, Inc</span>
-    </div>
-
-    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-      <li class="ms-3"><a class="text-body-secondary" href="https://x.com/_Mithun2005"><img src="./icon_svg/x.svg"/></a></li>
-      <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/mithun-a-515335217/"><img src="./icon_svg/linkedin.svg"/></a></li>
-      <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/_mithun_a/"><img src="./icon_svg/insta.svg"/></a></li>
-    </ul>
-  </footer>
-</div>
- 
-
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="./scripts/script.js"></script>
 </body>
+</html>
