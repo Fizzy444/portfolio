@@ -140,8 +140,8 @@ header a span {
 }
 
 .card:hover {
-  transform: translateY(-15px) scale(1.03); /* Increased lift and slight scale */
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+  transform: translateY(-15px) scale(1.03);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
 .card-img-top {
@@ -151,7 +151,7 @@ header a span {
 }
 
 .card:hover .card-img-top {
-  transform: scale(1.1); /* Increased zoom */
+  transform: scale(1.1);
 }
 
 /* Resume Section */
@@ -257,26 +257,36 @@ html, body {
   margin-left: auto;
 }
 
+/* Remove full-width styling for projects */
 #projects {
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
+  padding: 0;
 }
 
-.card {
-  max-width: 100%;
+/* Ensure cards and title align within container */
+#projects h2 {
+  margin: 0 auto;
+  width: 100%;
 }
 
-/* Responsive adjustments for projects */
+/* Responsive adjustments */
 @media (max-width: 768px) {
   #projects {
-    margin-left: 0;
-    margin-right: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
+    padding: 0 15px;
+  }
+
+  #projects h2 {
+    font-size: 1.75rem;
+  }
+}
+#projects h2 {
+  margin: 0 auto;
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: 2px solid var(--bs-primary);
+}
+@media (max-width: 768px) {
+  .theme-toggle {
+    bottom: 80px;
+    right: 10px;
   }
 }
